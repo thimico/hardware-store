@@ -1,0 +1,17 @@
+.title {
+    font-weight: bold;
+}
+
+.btn-2, .btn-3 {
+    margin-left: 10px;
+}
+
+@media(max-width: 767px) {
+    .btn-2, .btn-3 {
+        margin-left: 0;
+    }
+    
+    .btn {
+        margin-top: 10px;
+    }
+}
